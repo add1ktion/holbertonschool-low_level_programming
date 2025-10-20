@@ -14,7 +14,7 @@ for (nombre = '0'; nombre <= '9'; nombre++)
 {
 putchar(nombre);
 }
- 
+
 for (nombre = 'a'; nombre <= 'f'; nombre++)
 {
 putchar(nombre);
