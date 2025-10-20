@@ -16,7 +16,7 @@ putchar(nombre);
 putchar(',');
 putchar(' ');
 }
-
+if (nombre = '9')
 putchar('\n');
 
 return (0);
