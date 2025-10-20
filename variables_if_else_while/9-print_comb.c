@@ -13,10 +13,12 @@ int nombre;
 for (nombre = '0'; nombre <= '9'; nombre++)
 {
 putchar(nombre);
+if (nombre != '9')
+{
 putchar(',');
 putchar(' ');
 }
-if (nombre = '9')
+}
 putchar('\n');
 
 return (0);
