@@ -11,7 +11,10 @@ int main(void)
 int nombre;
 
 for (nombre = 0; nombre < 10; nombre++)
-
+{
+putchar(nombre);
+}
+ 
 for (nombre = 'a'; nombre <= 'f'; nombre++)
 {
 putchar(nombre);
