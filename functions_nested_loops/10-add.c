@@ -5,7 +5,7 @@
  *
  * Return: always 0.
  */
-void print_alphabet_x10(void)
+void times_table(void)
 {
 char c;
 int multi;
