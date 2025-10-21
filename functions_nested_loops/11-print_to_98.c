@@ -1,43 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 /**
- * print_to_98 - prints to 98
- * @n: erger
- * Return: void
+ * print_to_98 - prints to 98 from n
+ * @n: starting number
+ * Return: prints number blabla
  */
 void print_to_98(int n)
 {
-int i;
-
 if (n <= 98)
 {
-for (i = n; i <= 98; i++)
+while (n < 98)
 {
-if (i != 98)
-{
-printf("%d, ", i);
+printf("%d, ", n);
+n++;
+}
+printf("%d\n", n);
 }
 else
 {
-printf("%d", i);
-}
-}
-printf("\n");
-}
-else if (n > 98)
+while (n > 98)
 {
-for (i = n; i >= 98; i--)
-{
-if (i != 98)
-{
-printf("%d ", i);
+printf("%d, ", n);
+n--;
 }
-else
-{
-printf("%d", i);
-}
-}
-printf("\n");
+printf("%d\n", n);
 }
 }
