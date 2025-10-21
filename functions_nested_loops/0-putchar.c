@@ -16,6 +16,6 @@ while (str[pChar] != '\0')
 _putchar(str[pChar]);
 pChar++;
 }
-_putchar('\n');
+ _putchar('\n');
 return (0);
 }
