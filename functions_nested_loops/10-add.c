@@ -1,21 +1,11 @@
-#include <unistd.h>
 #include "main.h"
 /**
- * print_alphabet - affiche l'alphabet
- *
- * Return: always 0.
+ * add - adds a + b
+ * @a: number 1
+ * @b: number 2
+ * Return: result
  */
-void times_table(void)
+int add(int a, int b)
 {
-char c;
-int multi;
-
-for (multi = 0; multi < 10; multi++)
-{
-for (c = 'a'; c <= 'z'; c++)
-{
-_putchar(c);
-}
-_putchar('\n');
-}
+return (a + b);
 }
