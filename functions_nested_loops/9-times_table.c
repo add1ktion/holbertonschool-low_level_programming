@@ -18,7 +18,6 @@ if (res < 10)
 {
 if (i != 0)
 _putchar(' ');
-_putchar(' ');
 _putchar(res + '0');
 }
 else
