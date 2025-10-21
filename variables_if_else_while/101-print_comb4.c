@@ -8,18 +8,21 @@
  */
 int main(void)
 {
-int nombreA, nombreB;
+int nombreA, nombreB, nombreC;
 
 for (nombreA = '0'; nombreA <= '9'; nombreA++)
 {
 for (nombreB = '0'; nombreB <= '9'; nombreB++)
 {
-if (nombreA < nombreB)
+for (nombreC = '0'; nombreC <= '9'; nombreC++)
+{
+if (nombreA < nombreB && nombreB < nombreC)
 {
 putchar(nombreA);
 putchar(nombreB);
+putchar(nombreC);
 
-if (nombreA != '8' || (c == '8' && nombreB != '9'))
+if (nombreA != '7')
 {
 putchar(',');
 putchar(' ');
@@ -27,6 +30,8 @@ putchar(' ');
 }
 }
 }
+}
+
 putchar('\n');
 
 return (0);
