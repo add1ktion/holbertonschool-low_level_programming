@@ -8,6 +8,14 @@
 */
 int main(void)
 {
-printf("_putchar");
+char *str = "_putchar";
+int pChar = 0;
+
+while (str[pChar] != '\0')
+{
+_putchar(str[pChar]);
+pChar++;
+}
+_putchar('\n');
 return (0);
 }
