@@ -17,7 +17,7 @@ for (i = 0; i <= n; i++)
 {
 res = x * i;
 
-if (x == 0)
+if (i == 0)
 _putchar(res + '0');
 else
 {
