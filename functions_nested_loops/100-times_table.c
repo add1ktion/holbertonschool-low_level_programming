@@ -38,11 +38,12 @@ _putchar((res / 100) + '0');
 _putchar((res / 10) % 10 + '0');
 _putchar((res % 10) + '0');
 }
-
 if (i != n)
+{
 _putchar(',');
 _putchar(' ');
 _putchar('\n');
+}
 }
 }
 }
