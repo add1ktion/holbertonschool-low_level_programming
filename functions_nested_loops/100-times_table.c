@@ -40,9 +40,9 @@ _putchar((res % 10) + '0');
 }
 
 if (i != n)
-{
 _putchar(',');
 _putchar(' ');
 _putchar('\n');
+}
 }
 }
