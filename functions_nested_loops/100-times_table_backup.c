@@ -26,14 +26,18 @@ _putchar(res + '0');
 else if (res < 100)
 {
 if (i != 0)
+{
 _putchar(' ');
+}
 _putchar((res / 10) + '0');
 _putchar((res % 10) + '0');
 }
 else
 {
 if (i != 0)
+{
 _putchar(' ');
+}
 _putchar((res / 100) + '0');
 _putchar((res / 10) % 10 + '0');
 _putchar((res % 10) + '0');
@@ -43,6 +47,8 @@ if (i != n)
 {
 _putchar(',');
 _putchar(' ');
+}
+}
 _putchar('\n');
 }
 }
