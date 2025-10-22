@@ -19,7 +19,7 @@ for (nombreC = '0'; nombreC <= '9'; nombreC++)
 for (nombreD = '0'; nombreD <= '9'; nombreD++)
 {
 
-if (nombreA <= nombreC && nombreB < nombreD)
+if ((nombreA * 10 + nombreB) < (nombreC * 10 + nombreD))
 {
 putchar(nombreA);
 putchar(nombreB);
