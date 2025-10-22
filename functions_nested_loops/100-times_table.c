@@ -1,27 +1,28 @@
 #include "main.h"
+
 /**
- * print_times_table - tables de multiplications
- * @n: nombre de mult max
- * Return: always 0 (success)
- */
+ * print_times_table - prints the n times table
+ * @n: number defining the size of the table
+*/
 void print_times_table(int n)
 {
-int x, i, res;
+int i, j, res;
 
 if (n < 0 || n > 15)
 return;
-for (x = 0; x <= n; x++)
-{
+
 for (i = 0; i <= n; i++)
 {
-res = x * i;
-if (x == 0)
+for (j = 0; j <= n; j++)
+{
+res = i * j;
+
+if (j == 0)
 _putchar(res + '0');
 else
 {
 _putchar(',');
 _putchar(' ');
-
 if (res < 10)
 {
 _putchar(' ');

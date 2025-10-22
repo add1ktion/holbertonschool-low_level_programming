@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_times_table - tables de multiplications
- * @n: yes
+ * @n: nombre de mult max
  * Return: always 0 (success)
  */
 void print_times_table(int n)
@@ -17,36 +17,30 @@ for (i = 0; i <= n; i++)
 {
 res = x * i;
 
+if (x == 0)
+_putchar(res + '0');
+else
+{
+_putchar(',');
+_putchar(' ');
 if (res < 10)
 {
-if (i != 0)
+_putchar(' ');
 _putchar(' ');
 _putchar(res + '0');
 }
 else if (res < 100)
 {
-if (i != 0)
-{
 _putchar(' ');
-}
 _putchar((res / 10) + '0');
 _putchar((res % 10) + '0');
 }
 else
 {
-if (i != 0)
-{
-_putchar(' ');
-}
 _putchar((res / 100) + '0');
-_putchar((res / 10) % 10 + '0');
+_putchar(((res / 10) % 10) + '0');
 _putchar((res % 10) + '0');
 }
-
-if (i != n)
-{
-_putchar(',');
-_putchar(' ');
 }
 }
 _putchar('\n');
