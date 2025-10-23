@@ -12,4 +12,4 @@
 10. **[Task 9](./9-print_comb.c)** - Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 11. **[Task 10](./100-print_comb3.c)** - Write a program that prints all possible different combinations of two digits.
 12. **[Task 11](./101-print_comb4.c)** - Write a program that prints all possible different combinations of three digits.
-13. **[Task 11](./102-print_comb5.c)** - Write a program that prints all possible combinations of two two-digit numbers.
+13. **[Task 12](./102-print_comb5.c)** - Write a program that prints all possible combinations of two two-digit numbers.
