@@ -7,22 +7,34 @@
  */
 void fibonacci(int n)
 {
-    int a = 0, b = 1, next, count;
-    for (count = 0; count < n; count++)
-    {
-        if (count == 0)
-            next = a;
-        else if (count == 1)
-            next = b;
-        else
-        {
-            next = a + b;
-            a = b;
-            b = next;
-        }
-        printf("%d", next);
-        if (count < n - 1)
-            printf(", ");
-    }
-    printf("\n");
+int a = 0, b = 1, next, count;
+for (count = 0; count < n; count++)
+{
+if (count == 0)
+next = a;
+else if (count == 1)
+next = b;
+else
+{
+next = a + b;
+a = b;
+b = next;
 }
+printf("%d", next);
+if (count < n - 1)
+printf(", ");
+}
+printf("\n");
+}
+
+/**
+ * main - Entry point, prints first 50 Fibonacci numbers
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+fibonacci(50);
+return (0);
+}
+
