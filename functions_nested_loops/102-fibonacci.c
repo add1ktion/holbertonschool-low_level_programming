@@ -7,7 +7,9 @@
  */
 void fibonacci(int n)
 {
-int a = 0, b = 1, next, count;
+unsigned long a = 1, b = 2, next;
+int count;
+
 for (count = 0; count < n; count++)
 {
 if (count == 0)
@@ -20,7 +22,7 @@ next = a + b;
 a = b;
 b = next;
 }
-printf("%d", next);
+printf("%lu", next);
 if (count < n - 1)
 printf(", ");
 }
