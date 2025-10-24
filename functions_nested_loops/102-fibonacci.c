@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+/**
+ * fibonacci - prints the first n Fibonacci numbers
+ * @n: number of Fibonacci numbers to print
+ */
+void fibonacci(int n)
+{
+    int a = 0, b = 1, next, count;
+    for (count = 0; count < n; count++)
+    {
+        if (count == 0)
+            next = a;
+        else if (count == 1)
+            next = b;
+        else
+        {
+            next = a + b;
+            a = b;
+            b = next;
+        }
+        printf("%d", next);
+        if (count < n - 1)
+            printf(", ");
+    }
+    printf("\n");
+}
