@@ -10,6 +10,7 @@ int main(void)
     int a = 1;
     int b = 2;
     int pair = 0;
+    int next;
 
     while (b <= 4000000)
     {
@@ -18,7 +19,7 @@ int main(void)
             pair += b;
         }
 
-        int next = a + b;
+        next = a + b;
         a = b;
         b = next;
     }
