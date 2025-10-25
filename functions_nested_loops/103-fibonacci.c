@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
+* main - prints even number sum
 *
-*
-*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
