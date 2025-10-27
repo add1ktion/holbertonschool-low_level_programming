@@ -5,21 +5,22 @@
 */
 void print_triangle(int size)
 {
-int diese, space;
+int lign, column;
 
-if (size > 0)
+if (size <= 0)
 {
-for (diese = 1; diese <= size; diese++)
+_putchar('\n');
+return;
+}
+
+for (lign = 1; lign <= size; lign++)
 {
-for (space = size - diese; space > 0; space++)
+for (column = 1; column <= size; column++)
 _putchar(' ');
-for (space = 0; space < diese; space++)
+
+for (column = 1; column <= lign; column++)
 _putchar('#');
-if (diese == space)
-continue;
 
 _putchar('\n');
 }
-}
-_putchar('\n');
 }
