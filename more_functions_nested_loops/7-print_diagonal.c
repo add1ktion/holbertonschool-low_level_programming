@@ -12,7 +12,7 @@ if (n > 0)
 {
 for (backslash = 0; backslash < n; backslash++)
 {
-for (space = 0; espace < backslash; espace++)
+for (space = 0; space < backslash; space++)
 _putchar(' ');
 _putchar('\\');
 }
