@@ -15,7 +15,7 @@ return;
 
 for (lign = 1; lign <= size; lign++)
 {
-for (column = 1; column <= size; column++)
+for (column = 1; column <= size - lign; column++)
 _putchar(' ');
 
 for (column = 1; column <= lign; column++)
