@@ -1,6 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
-* _isdigit - check if digit
-* @c: character checked
-* Return: 1 if digit 0 if not
+* main - prints from 1 to 100
+*
+* Return: Always 0
 */
+int main(void)
+{
+int num;
+
+for (num = 0; num <= 100; num++)
+{
+if ((num % 3) == 0 && (num % 5) == 0)
+printf("FizzBuzz");
+else if ((num % 3) == 0)
+printf("Fizz");
+else if ((num % 5) == 0)
+printf("Buzz");
+else
+printf("%d", num);
+
+printf(" ");
+}
+printf("\n");
+
+return (0);
+}
