@@ -12,6 +12,7 @@ if (n <= 0)
 {
 _putchar('\n');
 return;
+}
 
 for (backslash = 0; backslash < n; backslash++)
 {
@@ -20,6 +21,5 @@ _putchar(' ');
 
 _putchar('\\');
 _putchar('\n');
-}
 }
 }
