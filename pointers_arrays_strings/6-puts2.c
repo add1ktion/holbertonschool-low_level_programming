@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* rev_string - Reverse a string
-* @s: The string to reverse
+* puts2 - Prints every other char
+* @str: String to cut
 *
 * Return: void
 */
