@@ -10,11 +10,14 @@
 void puts2(char *str)
 {
 	char *ptr = str;
+	int toggle = 1;
 
 	while (*ptr != '\0')
 	{
-		_putchar(*ptr);
-		*ptr +=2;
+		if (toggle)
+			_putchar(*ptr);
+		toggle = !toggle;
+		ptr++;
 	}
 	_putchar('\n');
 }
