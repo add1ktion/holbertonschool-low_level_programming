@@ -13,15 +13,15 @@ void rev_string(char *s)
 	int j;
 	char tmp;
 
-	while (s[i] != '\0')
+	while (s[j] != '\0')
 	{
-		i++;
+		j++;
 	}
 
-	for (j = 0; j < i / 2; j++)
+	for (i = 0; i < j / 2; i++)
 	{
-		tmp = s[j];
-		s[j] = s[i - 1 - j];
-		s[i - i - j] = tmp;
+		tmp = s[i];
+		s[i] = s[j - i - 1];
+		s[j - i - 1] = tmp;
 	}
 }
