@@ -2,9 +2,21 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_array - Prints the content of an array
-* @a: Array to print
-* @n: Number of char to print
-* Return: void
+* string_toupper - Transform lower in upper
+* @str: String to tranform
+* Return: String
 */
-char *string_toupper(char *);
+char *string_toupper(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		if (str[i] >= 'a' && str[i] <= 'z')
+		{
+			str[i] = str[i] - ('a' - 'A');
+		}
+		i++;
+	}
+	return (str);
+}
