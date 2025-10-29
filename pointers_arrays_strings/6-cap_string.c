@@ -20,7 +20,7 @@ char *cap_string(char *str)
 
 		if (i != 0)
 		{
-			for (j == 0; j < sizeof(spe) / sizeof(spe[0]); j++)
+			for (j = 0; j < sizeof(spe) / sizeof(spe[0]); j++)
 			{
 				if (str[i - 1] == spe[j])
 				{
