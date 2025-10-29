@@ -15,8 +15,8 @@ char *cap_string(char *str)
 	while (str[i] != '\0')
 	{
 
-		int j;
-		int is_spe;
+		size_t j;
+		int is_spe = 0;
 
 		if (i != 0)
 		{
