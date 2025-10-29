@@ -4,7 +4,7 @@ This repository was created for education purpose.
 
 ## Table of Contents
 
-1. [Hello World]((./hello_world)) :
+0. [Hello World](./Project_0_hello_world/) :
 
     - Why C programming is awesome
     - Who invented C
@@ -21,7 +21,7 @@ This repository was created for education purpose.
     - How does the main function influence the return value of the program
 
 
-2. [C - Variables, if, else, while](./variables_if_else_while) :
+1. [C - Variables, if, else, while](./Project_1_variables_if_else_while/) :
 
     - What are the arithmetic operators and how to use them
     - What are the logical operators (sometimes called boolean operators) and how to use them
@@ -40,7 +40,7 @@ This repository was created for education purpose.
     - What are the purpose of the gcc flags -m32 and -m64
 
 
-3. [C - Functions, nested loops](./functions_nested_loops) :
+2. [C - Functions, nested loops](./Project_2_functions_nested_loops/) :
 
     - Allowed editors: vi, vim, emacs
     - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -55,3 +55,31 @@ This repository was created for education purpose.
     - In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
     - The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
     - Don’t forget to push your header file
+
+
+3. [C - More Functions Nested Loops](./Project_3_more_functions_nested_loops/)
+    
+    - What are nested loops and how to use them
+    - What is a function and how do you use functions
+    - What is the difference between a declaration and a definition of a function
+    - What is a prototype
+    - Scope of variables
+    - What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
+    - What are header files and how to to use them with #include
+
+
+4. [C - Pointers Arrays Strings](./Project_4_pointers_arrays_strings/)
+
+    - What are pointers and how to use them
+    - What are arrays and how to use them
+    - What are the differences between pointers and arrays
+    - How to use strings and how to manipulate them
+    - Scope of variables
+
+5. [C - More pointers, arrays and strings](./pointers_arrays_strings/)
+
+    - What are pointers and how to use them
+    - What are arrays and how to use them
+    - What are the differences between pointers and arrays
+    - How to use strings and how to manipulate them
+    - Scope of variables
