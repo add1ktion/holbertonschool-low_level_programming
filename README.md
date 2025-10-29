@@ -4,7 +4,7 @@ This repository was created for education purpose.
 
 ## Table of Contents
 
-0. [Hello World](./Project_0_hello_world/) :
+0. [C - Hello World](./Project_0_hello_world/) :
 
     - Why C programming is awesome
     - Who invented C
