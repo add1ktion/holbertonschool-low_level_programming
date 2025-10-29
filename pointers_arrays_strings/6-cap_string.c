@@ -9,19 +9,31 @@
 char *cap_string(char *str)
 {
 	int i = 0;
+	char spe[] = {' ', '\t', '\n', ',', ';', '.',
+	 '!', '?', '"', '(', ')', '{', '}'};
 
 	while (str[i] != '\0')
 	{
-		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
+
+		int j;
+		int is_spe;
+
+		if (i != 0)
 		{
-			str[i] = str[i] - ('a' - 'A');
+			for (j == 0; j < sizeof(spe) / sizeof(spe[0]); j++)
+			{
+				if (str[i - 1] == spe[j])
+				{
+					is_spe = 1;
+					break;
+				}
+			}
 		}
-		else if (!((str[i - 1] >= 'a' && str[i - 1] <= 'z') ||
-					(str[i - 1] >= 'A' && str[i - 1] <= 'Z') ||
-					(str[i - 1] >= '0' && str[i - 1] <= '9')) &&
-					str[i] >= 'a' && str[i] <= 'z')
+
+		if ((i == 0 && str[i] >= 'a' && str[i] <= 'z') ||
+			(i != 0 && is_spe && str[i] >= 'a' && str[i] <= 'z'))
 		{
-			str[i] = str[i] - ('a' - 'A');
+			str[i] -= ('a' - 'A');
 		}
 		i++;
 	}
