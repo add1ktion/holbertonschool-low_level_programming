@@ -6,4 +6,7 @@
 * @str: String to leetify
 * Return: Leetified string
 */
-void print_number(int n);
+void print_number(int n)
+{
+	
+}

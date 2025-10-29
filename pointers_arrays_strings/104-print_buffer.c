@@ -6,4 +6,7 @@
 * @str: String to leetify
 * Return: Leetified string
 */
-void print_buffer(char *b, int size);
+void print_buffer(char *b, int size)
+{
+	
+}
