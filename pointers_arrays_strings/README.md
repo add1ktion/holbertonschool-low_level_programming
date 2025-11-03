@@ -1,4 +1,4 @@
-# Pointers Arrays Strings 3
+# C - Pointers Arrays Strings 3
 
 0. **[Task 0](./0-memset.c)** - Write a function that fills memory with a constant byte.
 1. **[Task 1](./1-memcpy.c)** - Write a function that copies memory area.

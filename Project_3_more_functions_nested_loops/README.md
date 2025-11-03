@@ -1,4 +1,4 @@
-# More Functions Nested Loops
+# C - More Functions Nested Loops
 
 0. **[Task 0](./0-isupper.c)** - Write a function that checks for uppercase character.
 1. **[Task 1](./1-isdigit.c)** - Write a function that checks for a digit (0 through 9).

@@ -1,4 +1,4 @@
-# Pointers Arrays Strings 2
+# C - Pointers Arrays Strings 2
 
 0. **[Task 0](./0-strcat.c)** - Write a function that concatenates two strings.
 1. **[Task 1](./1-strncat.c)** - Write a function that concatenates two strings.

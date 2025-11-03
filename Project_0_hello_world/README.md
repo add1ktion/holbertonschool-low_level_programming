@@ -1,4 +1,4 @@
-# C Hello World
+# C - Hello World
 
 0. **[Task 0](./0-preprocessor)** - Write a script that runs a C file through the preprocessor and save the result into another file.
 1. **[Task 1](./1-compiler)** - Write a script that compiles a C file but does not link.
