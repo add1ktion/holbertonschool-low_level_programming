@@ -1,11 +1,24 @@
 #include "main.h"
 /**
-* _strcat - Concatenates two strings
-* @dest: String
-* @src: String to add to dest
-* Return: dest
-*/
+ * _strpbrk - Searches a string for any of a set of bytes
+ * @s: Pointer to the string to search
+ * @accept: Pointer to the string containing bytes to search for
+ *
+ * Return: Pointer to the first byte in s that matches one of the bytes in accept, or NULL if none found
+ */
 char *_strpbrk(char *s, char *accept)
 {
-	
+	int i, j;
+
+	for(i = 0; s[i] != '\0'; i++)
+	{
+		for(j = 0; accept[j] != '\0'; j++)
+		{
+			if(s[i] == accept[j])
+			{
+				return(&s[i]);
+			}
+		}
+	}
+	return (0);
 }
