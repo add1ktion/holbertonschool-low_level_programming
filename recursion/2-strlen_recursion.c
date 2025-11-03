@@ -7,3 +7,7 @@
  *
  * Return: Pointer to the memory area s
  */
+ int _strlen_recursion(char *s)
+ {
+	
+ }

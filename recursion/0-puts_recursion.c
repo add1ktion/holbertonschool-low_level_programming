@@ -7,3 +7,7 @@
  *
  * Return: Pointer to the memory area s
  */
+ void _puts_recursion(char *s)
+ {
+
+ }

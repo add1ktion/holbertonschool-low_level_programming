@@ -7,3 +7,7 @@
  *
  * Return: Pointer to the memory area s
  */
+ int factorial(int n)
+ {
+	
+ }

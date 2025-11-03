@@ -7,3 +7,7 @@
  *
  * Return: Pointer to the memory area s
  */
+ int is_prime_number(int n)
+ {
+	
+ }
