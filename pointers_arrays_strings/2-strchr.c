@@ -6,3 +6,6 @@
 * Return: dest
 */
 char *_strchr(char *s, char c)
+{
+	
+}

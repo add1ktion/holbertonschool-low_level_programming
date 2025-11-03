@@ -6,3 +6,6 @@
 * Return: dest
 */
 unsigned int _strspn(char *s, char *accept)
+{
+	
+}

@@ -6,3 +6,6 @@
 * Return: dest
 */
 char *_strstr(char *haystack, char *needle)
+{
+	
+}
