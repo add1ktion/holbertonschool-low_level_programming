@@ -1,13 +1,17 @@
 #include "main.h"
 /**
- * _memset - Fills memory with a constant byte
- * @s: Pointer to the memory area to fill
- * @b: The byte value to set
- * @n: Number of bytes to fill
- *
- * Return: Pointer to the memory area s
+ * _print_rev_recursion - Prints a string in reverse using recursion
+ * @s: Pointer to the string to print
+ * Return: Nothing
  */
- void _print_rev_recursion(char *s)
- {
-	
- }
+void _print_rev_recursion(char *s)
+{
+	{
+	if (*s == '\0')
+	{
+		return;
+	}
+	_puts_rev_recursion(s + 1);
+	_putchar(*s);
+}
+}
