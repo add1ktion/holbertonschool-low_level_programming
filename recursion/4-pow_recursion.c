@@ -1,13 +1,20 @@
 #include "main.h"
 /**
- * _memset - Fills memory with a constant byte
- * @s: Pointer to the memory area to fill
- * @b: The byte value to set
- * @n: Number of bytes to fill
+ * _pow_recursion - Returns x raised to the power of y
+ * @x: Base number
+ * @y: Exponent
  *
- * Return: Pointer to the memory area s
+ * Return: The result of x^y, or -1 if y < 0
  */
 int _pow_recursion(int x, int y)
 {
-	
+	if (y < 0)
+	{
+		return (-1);
+	}
+	else if (y == 0)
+	{
+		return (1);
+	}
+	return (x * _pow_recursion(x, y - 1));
 }
