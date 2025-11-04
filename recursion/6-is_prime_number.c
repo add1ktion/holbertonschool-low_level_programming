@@ -1,12 +1,12 @@
 #include "main.h"
+
+int check_divisor(int n, int i);
 /**
  * is_prime_number - Checks if n is prime
  * @n: Integer to check
  *
  * Return: 1 if prime, 0 if not
  */
-int check_divisor(int n, int i);
-
 int is_prime_number(int n)
 {
 	if (n <= 1)
