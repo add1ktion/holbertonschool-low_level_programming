@@ -7,7 +7,7 @@
  *
  * Return: Pointer to the memory area s
  */
- int is_palindrome(char *s)
- {
+int is_palindrome(char *s)
+{
 	
- }
+}

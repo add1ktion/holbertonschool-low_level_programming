@@ -7,7 +7,7 @@
  *
  * Return: Pointer to the memory area s
  */
- int _pow_recursion(int x, int y)
- {
+int _pow_recursion(int x, int y)
+{
 	
- }
+}
