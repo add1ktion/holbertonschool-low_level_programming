@@ -1,13 +1,18 @@
 #include "main.h"
 /**
- * _memset - Fills memory with a constant byte
- * @s: Pointer to the memory area to fill
- * @b: The byte value to set
- * @n: Number of bytes to fill
+ * _sqrt_recursion - Returns the natural square root of n
+ * @n: Number to compute the square root for
  *
- * Return: Pointer to the memory area s
+ * Return: The natural square root of n, or -1 if none exists
  */
+int helper(int i, int n);
+
 int _sqrt_recursion(int n)
 {
-	
+	if (n < 0)
+	{
+		return (-1);
+	}
+
+
 }
