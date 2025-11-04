@@ -1,13 +1,40 @@
 #include "main.h"
 /**
- * _memset - Fills memory with a constant byte
- * @s: Pointer to the memory area to fill
- * @b: The byte value to set
- * @n: Number of bytes to fill
+ * is_prime_number - Checks if n is prime
+ * @n: Integer to check
  *
- * Return: Pointer to the memory area s
+ * Return: 1 if prime, 0 if not
  */
+int check_divisor(int n, int i);
+
 int is_prime_number(int n)
 {
-	
+	if (n <= 1)
+	{
+		return (0);
+	}
+	return (check_divisor(n, 2));
+}
+
+/**
+ * check_divisor - Teste récursivement si n a un diviseur
+ * @n: Nombre à tester
+ * @i: Diviseur actuel à tester
+ *
+ * Return: 1 si aucun diviseur trouvé (premier), 0 si diviseur trouvé
+ */
+int check_divisor(int n, int i)
+{
+	if (i * i > n)
+	{
+		return (1);
+	}
+	else if (n % i == 0)
+	{
+		return (0);
+	}
+	else
+	{
+		return (check_divisor(n, i + 1));
+	}
 }
