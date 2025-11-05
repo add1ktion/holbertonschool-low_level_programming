@@ -1,7 +1,7 @@
 # C - Recursions
 
 - **[0-puts_recursion.c](./0-puts_recursion.c)** - Write a function that prints a string, followed by a new line.
-_puts_recursion prints a string by calling itself on the next character until it reaches the end of the string.
+  _puts_recursion prints a string by calling itself on the next character until it reaches the end of the string.
 It’s a great example for understanding the recursion call stack in C: each character is handled in a separate function call, and the function finishes by unwinding back through the previous calls once the end of the string is reached.
 
 - **[1-print_rev_recursion.c](./1-print_rev_recursion.c)** - Write a function that prints a string in reverse.
