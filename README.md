@@ -71,10 +71,31 @@ This repository was created for education purpose.
     - How to use strings and how to manipulate them
     - Scope of variables
 
-5. [C - More pointers, arrays and strings](./pointers_arrays_strings/)
+5. [C - More pointers, arrays and strings](./Project_5_pointers_arrays_strings/)
 
     - What are pointers and how to use them
     - What are arrays and how to use them
     - What are the differences between pointers and arrays
     - How to use strings and how to manipulate them
     - Scope of variables
+
+6. [C - Even more pointers, arrays and strings](./Project_6_pointers_arrays_strings/)
+
+    - What are pointers and how to use them
+    - What are arrays and how to use them
+    - What are the differences between pointers and arrays
+    - How to use strings and how to manipulate them
+    - Scope of variables
+
+7. [C - Recursion](./Project_7_recursion/)
+   
+    - What is recursion
+    - How to implement recursion
+    - In what situations you should implement recursion
+    - In what situations you shouldn’t implement recursion
+
+8. [C - argc, argv](./Project_8_argc_argv)
+
+    - How to use arguments passed to your program
+    - What are two prototypes of main that you know of, and in which case do you use one or the other
+    - How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
