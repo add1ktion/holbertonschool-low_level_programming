@@ -1,4 +1,6 @@
+#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prints its own name
  * @argc: number of arguments
@@ -8,5 +10,5 @@
  */
 void free_grid(int **grid, int height)
 {
-	
+
 }

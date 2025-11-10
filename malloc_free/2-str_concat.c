@@ -1,4 +1,6 @@
+#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prints its own name
  * @argc: number of arguments
@@ -8,5 +10,5 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	
+
 }
