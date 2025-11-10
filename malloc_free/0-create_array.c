@@ -2,13 +2,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints its own name
- * @argc: number of arguments
- * @argv: array of arguments
+ * create_aray - Creates an array
+ * @size: Size of the array
+ * @c: Char in the array
  *
- * Return: 0
+ * Return: NULL if size = 0
  */
 char *create_array(unsigned int size, char c)
 {
+	char *array;
+	
+	if (size == 0)
+	{
+		return (NULL);
+	}
 
+	array = malloc(size * sizeof(char));
+
+	if (array == NULL)
+	{
+		return (NULL);
+	}
+
+	return (array);
 }
