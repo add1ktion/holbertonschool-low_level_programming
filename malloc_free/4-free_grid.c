@@ -2,13 +2,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints its own name
- * @argc: number of arguments
- * @argv: array of arguments
+ * free_grid - Frees a 2 dimensional grid
+ *				previously created.
+ * @grid: Pointer to the 2D grid to free.
+ * @height: Number of rows in the grid.
  *
- * Return: 0
+ * Return: Nothing.
  */
 void free_grid(int **grid, int height)
 {
+	int i = 0;
 
+	for (i = 0; i < height; i++)
+	{
+		free(grid[i]);
+	}
+	free(grid);
 }
