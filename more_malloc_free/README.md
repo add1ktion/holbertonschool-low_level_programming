@@ -1,4 +1,4 @@
-# C - Malloc, Free
+# C - More Malloc, Free
 
 - **[0-malloc_checked.c](./0-malloc_checked.c)** - Write a function that allocates memory using malloc.
 
