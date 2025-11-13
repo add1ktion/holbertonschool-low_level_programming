@@ -99,3 +99,20 @@ This repository was created for education purpose.
     - How to use arguments passed to your program
     - What are two prototypes of main that you know of, and in which case do you use one or the other
     - How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
+
+9. [C - Malloc, Free](./malloc_free/)
+
+    - What is the difference between automatic and dynamic allocation
+    - What is malloc and free and how to use them
+    - Why and when use malloc
+    - How to use valgrind to check for memory leak
+
+10. [C - More Malloc, Free](./more_malloc_free/)
+
+    - How to use the exit function
+    - What are the functions calloc and realloc from the standard library and how to use them
+
+11. [C - Structures, Typedef](./structures_typedef/)
+
+    - What are structures, when, why and how to use them
+    - How to use typedef
