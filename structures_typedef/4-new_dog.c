@@ -72,9 +72,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 			return (NULL);
 		}
 
-	pug->name = _strcpy(pug->name);
+	pug->name = _strcpy(pug->name, name);
 	pug->age = age;
-	pug->owner = _strcpy(pug->owner);
+	pug->owner = _strcpy(pug->owner, owner);
 
 	return (pug);
 }
