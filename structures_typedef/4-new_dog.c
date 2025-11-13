@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 #include "main.h"
 
@@ -46,6 +47,7 @@ char *_strcpy(char *dest, char *src)
 * @name: Name of the new dog
 * @age: Age of the new dog
 * @owner: Owner of the new dog
+* Return: New dog struct
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -70,7 +72,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 			return (NULL);
 		}
 
-
+	pug->name = _strcpy(pug->name);
+	pug->age = age;
+	pug->owner = _strcpy(pug->owner);
 
 	return (pug);
 }
