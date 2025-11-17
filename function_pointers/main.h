@@ -75,8 +75,4 @@ void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
-void print_name(char *name, void (*f)(char *));
-void array_iterator(int *array, size_t size, void (*action)(int));
-int int_index(int *array, int size, int (*cmp)(int));
-
 #endif
