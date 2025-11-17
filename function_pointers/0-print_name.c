@@ -2,9 +2,7 @@
 /**
  * print_name - prints a name using a function pointer
  * @name: name to print
- * @f: pointer to a function
- *
- * Return: nothing
+ * @f: pointer to a function that prints a name
  */
 void print_name(char *name, void (*f)(char *))
 {
