@@ -4,7 +4,7 @@
 
 - **[1-array_iterator.c](./1-array_iterator.c)** - Write a function that executes a function given as a parameter on each element of an array.
 
-- **[2-print_dog.c](./2-print_dog.c)** - Write a function that executes a function given as a parameter on each element of an array.
+- **[2-int_index.c](./2-int_index.c)** - Write a function that searches for an integer.
 
 - **[3-op.c](./)** - Write a program that performs simple operations.
 
