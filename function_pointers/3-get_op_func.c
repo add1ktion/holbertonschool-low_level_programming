@@ -9,4 +9,13 @@ op_t ops[] = {
         {NULL, NULL}
     };
     int i;
+
+while (ops[i].op != NULL)
+    {
+    if (s[0] == ops[i].op[0] && s[1] == '\0')
+        return (ops[i].f);
+        i++;
+    }
+
+    return (NULL);
 }
