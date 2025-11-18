@@ -4,7 +4,7 @@ This repository was created for education purpose.
 
 ## Table of Contents
 
-0. [C - Hello World](./Project_0_hello_world/) :
+### 0. [C - Hello, World](./Project_0_hello_world/) :
 
     - Why C programming is awesome
     - Who invented C
@@ -21,7 +21,7 @@ This repository was created for education purpose.
     - How does the main function influence the return value of the program
 
 
-1. [C - Variables, if, else, while](./Project_1_variables_if_else_while/) :
+### 1. [C - Variables, if, else, while](./Project_1_variables_if_else_while/) :
 
     - What are the arithmetic operators and how to use them
     - What are the logical operators (sometimes called boolean operators) and how to use them
@@ -40,7 +40,7 @@ This repository was created for education purpose.
     - What are the purpose of the gcc flags -m32 and -m64
 
 
-2. [C - Functions, nested loops](./Project_2_functions_nested_loops/) :
+### 2. [C - Functions, nested loops](./Project_2_functions_nested_loops/) :
 
     
     - What are nested loops and how to use them
@@ -52,7 +52,7 @@ This repository was created for education purpose.
     - What are header files and how to to use them with #include
 
 
-3. [C - More Functions Nested Loops](./Project_3_more_functions_nested_loops/)
+### 3. [C - More functions, more nested loops](./Project_3_more_functions_nested_loops/)
     
     - What are nested loops and how to use them
     - What is a function and how do you use functions
@@ -63,7 +63,7 @@ This repository was created for education purpose.
     - What are header files and how to to use them with #include
 
 
-4. [C - Pointers Arrays Strings](./Project_4_pointers_arrays_strings/)
+### 4. [C - Pointers, arrays and strings](./Project_4_pointers_arrays_strings/)
 
     - What are pointers and how to use them
     - What are arrays and how to use them
@@ -71,7 +71,7 @@ This repository was created for education purpose.
     - How to use strings and how to manipulate them
     - Scope of variables
 
-5. [C - More pointers, arrays and strings](./Project_5_pointers_arrays_strings/)
+### 5. [C - More pointers, arrays and strings](./Project_5_pointers_arrays_strings/)
 
     - What are pointers and how to use them
     - What are arrays and how to use them
@@ -79,7 +79,7 @@ This repository was created for education purpose.
     - How to use strings and how to manipulate them
     - Scope of variables
 
-6. [C - Even more pointers, arrays and strings](./Project_6_pointers_arrays_strings/)
+### 6. [C - Even more pointers, arrays and strings](./Project_6_pointers_arrays_strings/)
 
     - What are pointers and how to use them
     - What are arrays and how to use them
@@ -87,32 +87,44 @@ This repository was created for education purpose.
     - How to use strings and how to manipulate them
     - Scope of variables
 
-7. [C - Recursion](./Project_7_recursion/)
+### 7. [C - Recursion](./Project_7_recursion/)
    
     - What is recursion
     - How to implement recursion
     - In what situations you should implement recursion
     - In what situations you shouldn’t implement recursion
 
-8. [C - argc, argv](./Project_8_argc_argv)
+### 8. [C - argc, argv](./Project_8_argc_argv/)
 
     - How to use arguments passed to your program
     - What are two prototypes of main that you know of, and in which case do you use one or the other
     - How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
 
-9. [C - Malloc, Free](./malloc_free/)
+### 9. [C - malloc, free](./Project_9_malloc_free/)
 
     - What is the difference between automatic and dynamic allocation
     - What is malloc and free and how to use them
     - Why and when use malloc
     - How to use valgrind to check for memory leak
 
-10. [C - More Malloc, Free](./more_malloc_free/)
+### 10. [C - More malloc, free](./Project_10_more_malloc_free/)
 
     - How to use the exit function
     - What are the functions calloc and realloc from the standard library and how to use them
 
-11. [C - Structures, Typedef](./structures_typedef/)
+### 11. [C - Structures, typedef](./Project_11_structures_typedef/)
 
     - What are structures, when, why and how to use them
     - How to use typedef
+
+### 12. [C - Function pointers](./function_pointers/)
+
+    - What are function pointers and how to use them
+    - What does a function pointer exactly hold
+    - Where does a function pointer point to in the virtual memory
+
+### 13. [C - Variadic functions](./variadic_functions/)
+
+    - What are variadic functions
+    - How to use va_start, va_arg and va_end macros
+    - Why and how to use the const type qualifier
