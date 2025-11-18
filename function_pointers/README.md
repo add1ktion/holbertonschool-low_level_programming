@@ -1,4 +1,4 @@
-# C - Structures, Typedef
+# C - Function pointers
 
 - **[0-print-name.c](./0-print-name.c)** - Write a function that prints a name.
 
