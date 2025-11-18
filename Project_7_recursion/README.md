@@ -1,37 +1,58 @@
 # C - Recursions
 
-- **[0-puts_recursion.c](./0-puts_recursion.c)** - Write a function that prints a string, followed by a new line.
+- **[0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget](./0-puts_recursion.c)**
 
-	_puts_recursion prints a string by calling itself on the next character until it reaches the end of the string.
-It’s a great example for understanding the recursion call stack in C: each character is handled in a separate function call, and the function finishes by unwinding back through the previous calls once the end of the string is reached.
+	- Write a function that prints a string, followed by a new line.
 
-- **[1-print_rev_recursion.c](./1-print_rev_recursion.c)** - Write a function that prints a string in reverse.
+    	- Prototype: void _puts_recursion(char *s);
 
-	_print_rev_recursion prints a string in reverse by calling itself until it reaches the end of the string, then printing each character as the recursion unwinds.
-It’s an excellent demonstration of how recursion naturally reverses the order of execution: the deepest calls return first, allowing you to process data backward without loops.
+	- FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
-- **[2-strlen_recursion.c](./2-strlen_recursion.c)** - Write a function that returns the length of a string.
 
-	_strlen_recursion calculates the length of a string by counting one character at each recursive call until it reaches the null terminator.
-Each recursive return adds 1, building the total length as the function unwinds.
-This is a simple yet powerful example of how recursion can replace iteration when processing strings in C.
+- **[1. Why is it so important to dream? Because, in my dreams we are together](./1-print_rev_recursion.c)** - 
 
-- **[3-factorial.c](./3-factorial.c)** - Write a function that returns the factorial of a given number.
+	- Write a function that prints a string in reverse.
 
-	factorial calculates the factorial of a number recursively by multiplying each number by the factorial of the one below it, until it reaches 0, which returns 1.
-It demonstrates how recursion can replace loops in mathematical problems — and how to use a base case and error handling to control recursion safely.
+    	- Prototype: void _print_rev_recursion(char *s);
 
-- **[4-pow_recursion.c](./4-pow_recursion.c)** - Write a function that returns the value of x raised to the power of y.
 
-	_pow_recursion calculates the power of a number recursively by multiplying the base x by the result of the same function with a decremented exponent y - 1.
-The recursion stops when y reaches 0, returning 1.
-It’s a clear example of how recursion can model repeated multiplication through a simple base case and a self-reducing problem.
+- **[2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange](./2-strlen_recursion.c)**
 
-- **[5-sqrt_recursion.c](./5-sqrt_recursion.c)** - Write a function that returns the natural square root of a number.tters of a string to uppercase.
+	- Write a function that returns the length of a string.
 
-	_sqrt_recursion finds the natural square root of a number using recursion.
-It calls a helper function that tests each integer starting from 0 until it either finds one whose square equals the target or exceeds it.
-This exercise shows how recursion can replace iteration by maintaining a counter through recursive parameters, and how to use helper functions to manage state cleanly.
+    	- Prototype: int _strlen_recursion(char *s);
+
+	- FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
+
+
+- **[3. You mustn't be afraid to dream a little bigger, darling](./3-factorial.c)** 
+
+	- Write a function that returns the factorial of a given number.
+
+    	- Prototype: int factorial(int n);
+    	- If n is lower than 0, the function should return -1 to indicate an error
+    	- Factorial of 0 is 1
+
+
+- **[4. Once an idea has taken hold of the brain it's almost impossible to eradicate](./4-pow_recursion.c)**
+
+	- Write a function that returns the value of x raised to the power of y.
+
+    	- Prototype: int _pow_recursion(int x, int y);
+    	- If y is lower than 0, the function should return -1
+
+	- FYI: The standard library provides a different function: pow. Run man pow to learn more.
+
+
+- **[5. Your subconscious is looking for the dreamer](./5-sqrt_recursion.c)**
+
+	- Write a function that returns the natural square root of a number.
+
+    	- Prototype: int _sqrt_recursion(int n);
+    	- If n does not have a natural square root, the function should return -1
+
+	- FYI: The standard library provides a different function: sqrt. Run man sqrt to learn more.
+
 
 - **[6-is_prime_number.c](./6-is_prime_number.c)** - Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
 
@@ -39,10 +60,16 @@ This exercise shows how recursion can replace iteration by maintaining a counter
 The recursion stops either when a divisor is found (not prime) or when the current divisor squared exceeds the number (prime).
 This is an efficient example of recursion combined with mathematical optimization to reduce unnecessary checks.
 
-- **[100-is_palindrome.c](./100-is_palindrome.c)** - Write a function that returns 1 if a string is a palindrome and 0 if not.
+- **[6. Inception. Is it possible?](./100-is_palindrome.c)**
 
-	is_palindrome checks recursively whether a string reads the same forwards and backwards.
-It uses a helper function that compares characters from the start and end of the string, moving inward until either a mismatch is found (not palindrome) or all characters match (palindrome).
-This is a clear example of recursion for two-pointer problems and how recursion can replace iterative loops.
+	- Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
 
-- **[101-wildcmp.c](./101-wildcmp.c)** - Write a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
+    	- Prototype: int is_prime_number(int n);
+
+
+- **[7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything](./101-wildcmp.c)**
+
+	- Write a function that returns 1 if a string is a palindrome and 0 if not.
+
+    	- Prototype: int is_palindrome(char *s);
+    	- An empty string is a palindrome
