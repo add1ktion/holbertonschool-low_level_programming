@@ -6,9 +6,6 @@
 */
 int sum_them_all(const unsigned int n, ...)
 {
-	if (n == 0)
-		return (0);
-
 	va_list count;
 	unsigned int sum = 0, i;
 
