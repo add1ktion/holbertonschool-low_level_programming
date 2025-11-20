@@ -12,9 +12,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	int num = 0;
 	va_list count;
 
-	if (n == 0)
-		printf("\n");
-
 	va_start(count, n);
 
 	for (i = 0; i < n; i++)
