@@ -6,13 +6,13 @@
 */
 int sum_them_all(const unsigned int n, ...)
 {
+	if (n == 0)
+		return (0);
+
 	va_list count;
 	unsigned int sum = 0, i;
 
 	va_start(count, n);
-
-	if (n == 0)
-		return (0);
 
 	for (i = 0; i < n; i++)
 	{
