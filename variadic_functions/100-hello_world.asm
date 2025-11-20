@@ -9,9 +9,9 @@ msg:    db "Hello, World", 10
 len:    equ $-msg
 
 section .text
-global _start
+global main
 
-_start:
+main:
 	; write(1, msg, len)
 	mov     rax, 1      ; syscall: sys_write
 	mov     rdi, 1      ; file descriptor: stdout
