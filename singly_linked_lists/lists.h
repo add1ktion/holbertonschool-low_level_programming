@@ -4,6 +4,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * struct list_s - Linked list
+ * @str: String.
+ * @len: Length of the string.
+ * @next: Points to the next node.
+ */
 typedef struct list_s
 {
 	char *str;
