@@ -26,7 +26,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	slen = strlen(scopy);
+	slen = strlen(str);
 
 	new->str = scopy;
 	new->len = slen;
