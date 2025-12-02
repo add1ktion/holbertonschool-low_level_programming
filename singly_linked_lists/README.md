@@ -11,55 +11,35 @@
     	- You are allowed to use printf
 
 
-- **[1. To be is to be the value of a variable](./1-print_numbers.c)**
+- **[1. List length](./1-list_len.c)**
 
-	- Write a function that prints numbers, followed by a new line.
+	- Write a function that returns the number of elements in a linked list_t list.
 
-    	- Prototype: void print_numbers(const char *separator, const unsigned int n, ...);
-    	- where separator is the string to be printed between numbers
-    	- and n is the number of integers passed to the function
-    	- You are allowed to use printf
-    	- If separator is NULL, don’t print it
-    	- Print a new line at the end of your function
+    	- Prototype: size_t list_len(const list_t *h);
 
 
-- **[2. One woman's constant is another woman's variable](./2-print_strings.c)**
+- **[2. Add node](./2-add_node.c)**
 
-	- Write a function that prints strings, followed by a new line.
+	- Write a function that adds a new node at the beginning of a list_t list.
 
-    	- Prototype: void print_strings(const char *separator, const unsigned int n, ...);
-    	- where separator is the string to be printed between the strings
-    	- and n is the number of strings passed to the function
-    	- You are allowed to use printf
-    	- If separator is NULL, don’t print it
-    	- If one of the string is NULL, print (nil) instead
-		- Print a new line at the end of your function
+    	- Prototype: list_t *add_node(list_t **head, const char *str);
+    	- Return: the address of the new element, or NULL if it failed
+    	- str needs to be duplicated
+    	- You are allowed to use strdup
 
 
-- **[3. To be is a to be the value of a variable](./3-print_all.c)**
+- **[3. Add node at the end](./3-add_node_end.c)**
 
-	- Write a function that prints anything.
+	- Write a function that adds a new node at the end of a list_t list.
 
-    	- Prototype: void print_all(const char * const format, ...);
-    	- where format is a list of types of arguments passed to the function
-        	- c: char
-        	- i: integer
-        	- f: float
-        	- s: char * (if the string is NULL, print (nil) instead
-        	- any other char should be ignored
-        	- see example
-    	- You are not allowed to use for, goto, ternary operator, else, do ... while
-    	- You can use a maximum of
-        	- 2 while loops
-        	- 2 if
-    	- You can declare a maximum of 9 variables
-    	- You are allowed to use printf
-    	- Print a new line at the end of your function
+    	- Prototype: list_t *add_node_end(list_t **head, const char *str);
+    	- Return: the address of the new element, or NULL if it failed
+    	- str needs to be duplicated
+    	- You are allowed to use strdup
 
 
-- **[4. Real programmers can write assembly code in any language](./100-hello_world.asm)**
+- **[4. Free list](./4-free_list.c)**
 
-	- Write a 64-bit program in assembly that prints Hello, World, followed by a new line.
+	- Write a function that frees a list_t list.
 
-    	- You are only allowed to use the system call write (use int or syscall, not a call)
-    	- Your program will be compiled using nasm and gcc (as follows)
+    	- Prototype: void free_list(list_t *head);
