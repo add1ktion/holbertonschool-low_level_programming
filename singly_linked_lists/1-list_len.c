@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-* print_list - Find the elements of list_t.
+* list_len - Find the elements of list_t.
 * @h: The list_t list.
 *
 * Return: Number of elements in h.
