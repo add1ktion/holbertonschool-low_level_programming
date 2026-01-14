@@ -117,14 +117,37 @@ This repository was created for education purpose.
     - What are structures, when, why and how to use them
     - How to use typedef
 
-### 12. [C - Function pointers](./function_pointers/)
+### 12. [C - Function pointers](./Project_12_function_pointers/)
 
     - What are function pointers and how to use them
     - What does a function pointer exactly hold
     - Where does a function pointer point to in the virtual memory
 
-### 13. [C - Variadic functions](./variadic_functions/)
+### 13. [C - Variadic functions](./Project_13_variadic_functions/)
 
     - What are variadic functions
     - How to use va_start, va_arg and va_end macros
     - Why and how to use the const type qualifier
+
+### 14. [C - Singly linked lists](./Project_14_singly_linked_lists/)
+
+    - When and why using linked lists vs arrays
+    - How to build and use linked lists
+
+### 15. [C - Doubly linked lists](./Project_15_doubly_linked_lists/)
+
+    - What is a doubly linked list
+    - How to use doubly linked lists
+    - Start to look for the right source of information without too much help
+
+### 16. [C - File I/O](./Project_16_file_io/)
+
+    - Look for the right source of information online
+    - How to create, open, close, read and write files
+    - What are file descriptors
+    - What are the 3 standard file descriptors, what are their purpose and what are their POSIX names
+    - How to use the I/O system calls open, close, read and write
+    - What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
+    - What are file permissions, and how to set them when creating a file with the open system call
+    - What is a system call
+    - What is the difference between a function and a system call
